@@ -35,10 +35,3 @@ if (carousel) {
         if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth) carousel.scrollLeft = 0;
     }, 3000);
 }
-
-// Initial Fade Trigger for Journey
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.fade-in').forEach(el => {
-        el.classList.add('visible'); // Force initial if needed
-    });
-});
